@@ -7,7 +7,7 @@ import FormCep from './FormCep'
 const addressResponse = {
   cep: '03047000',
   logradouro: 'Rua x',
-  bairro: 'Novo rioe',
+  bairro: 'Novo rio',
 }
 
 global.fetch = jest.fn().mockImplementation(() =>
